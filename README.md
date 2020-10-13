@@ -1,4 +1,12 @@
 # react-native-teads
+**Update of the 13/10/2020 :**<br>
+This is a fork of the repo https://github.com/cisclub/react-native-teads.
+This repo contains an update fixing the following issue : 
+```
+Thread 1: Exception: "-[RNTTeadsInReadAdViewManager didUpdateRatio:ratio:]: unrecognized selector sent to instance 0x28373c820"
+```
+<img src="https://user-images.githubusercontent.com/72379154/95054911-dc21ff80-06f2-11eb-9deb-190d32f66f04.png" />
+
 
 ## Getting started
 

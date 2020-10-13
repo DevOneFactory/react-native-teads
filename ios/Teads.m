@@ -57,7 +57,15 @@ RCT_CUSTOM_VIEW_PROPERTY(pid, NSInteger, TFAInReadAdView) {
     if (!ad.onDidReceiveAd) {
         return;
     }
-    
+
+    ad.onDidReceiveAd(@{@"adRatio" : @(adRatio)});
+}
+
+- (void)didUpdateRatio:(TFAInReadAdView * _Nonnull)ad ratio:(CGFloat)adRatio {
+    if (!ad.onDidReceiveAd) {
+        return;
+    }
+
     ad.onDidReceiveAd(@{@"adRatio" : @(adRatio)});
 }
 
